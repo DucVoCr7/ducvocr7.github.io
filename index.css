@@ -279,6 +279,7 @@ p {
     margin-bottom: 0;
   }
   .top_bottom_left {
+    width: 100%;
     margin-right: 0;
     margin-bottom: var(--margin);
   }
