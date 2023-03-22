@@ -1,0 +1,218 @@
+:root {
+  --width-left: 200px;
+  --margin: 30px;
+  --margin-right: 10px;
+  --margin-bottom-element: 20px;
+  --color-text: #3f3f3f;
+}
+/* 
+font-family: 'Eczar', serif;
+font-family: 'Rubik', sans-serif;
+ */
+/* Rubik - infomation */
+/* font-family: "rubik",serif,"Noto Serif SC","Noto Serif JP"; */
+/* Eczar - name, title */
+
+* {
+  box-sizing: border-box;
+  line-height: 1;
+  color: var(--color-text);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.views {
+  width: 100%vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 793.700787px;
+  height: 1122.519685px;
+  padding: 60px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  position: relative;
+  background-image: url("./asset/image/background.png");
+  z-index: -2;
+}
+.container .background_top {
+  position: absolute;
+  width: 400px;
+  filter: opacity(0.2) drop-shadow(0 0 0 red);
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.container .background_bottom {
+  position: absolute;
+  width: 400px;
+  filter: opacity(0.2) drop-shadow(0 0 0 red);
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+
+.top {
+  margin-bottom: var(--margin);
+}
+.top_top {
+  display: flex;
+  height: var(--width-left);
+  margin-bottom: var(--margin);
+}
+.top_top_left {
+  width: var(--width-left);
+  margin-right: var(--margin);
+}
+.top_top_left > img {
+  width: var(--width-left);
+  height: var(--width-left);
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.top_top_right {
+  flex: 1;
+}
+.top_top_right .top_name:first-child {
+  margin-bottom: 10px;
+}
+.top_top_right .top_position {
+  margin-top: var(--margin);
+}
+
+.top_bottom {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--margin);
+}
+.top_bottom_left {
+  width: var(--width-left);
+  margin-right: var(--margin);
+}
+.top_bottom_left .top_infomation {
+}
+.top_bottom_left .top_infomation .top_infomation_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--margin-bottom-element);
+}
+.top_bottom_left .top_infomation .top_infomation_item > img {
+  height: 10px;
+  width: 10px;
+  margin-right: var(--margin-right);
+}
+.top_bottom_right {
+  flex: 1;
+}
+.top_bottom_right .top_description {
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+.bottom_left {
+  width: var(--width-left);
+  margin-right: var(--margin);
+}
+.bottom_right {
+  flex: 1;
+}
+.bottom_element {
+  margin-bottom: var(--margin);
+}
+.bottom_element .element_title {
+  position: relative;
+  margin-bottom: var(--margin);
+}
+.bottom_element .element_title > img {
+  height: 15px;
+  width: 100px;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+}
+.bottom_element .element_content > ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.bottom_element .element_content > ul > li {
+  margin-bottom: var(--margin-bottom-element);
+}
+.bottom_element .element_content > p {
+  line-height: inherit;
+}
+.bottom_element .element_content .element_content_heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--margin-bottom-element);
+}
+.bottom_element .element_content .element_content_subtitle {
+  margin-bottom: var(--margin-bottom-element);
+}
+.bottom_element
+  .element_content
+  .element_content_heading
+  .element_content_heading_left {
+  margin-right: var(--margin);
+  line-height: inherit;
+}
+.bottom_element
+  .element_content
+  .element_content_heading
+  .element_content_heading_right {
+  white-space: nowrap;
+  line-height: inherit;
+}
+
+/* Font */
+.font_title {
+  font-family: "Eczar", serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.font_name {
+  font-family: "Eczar", serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 65px;
+}
+.font_content {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  line-height: 2;
+  font-weight: 300;
+}
+.font_infomation {
+  font-family: "Rubik", sans-serif;
+  font-size: 10.5px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+}
+.font_heading {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  line-height: 2;
+  font-weight: 500;
+}
+.font_subtitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+}
