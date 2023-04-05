@@ -16,9 +16,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-/* li {
-  list-style-position: outside;
-} */
+
 p {
   margin: 0;
 }
@@ -74,8 +72,7 @@ p {
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
-  /* -webkit-filter: grayscale(50%);
-  filter: grayscale(50%); */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .top_top_right {
   flex: 1;
