@@ -250,6 +250,10 @@ p {
     --margin-bottom-element: 15px;
   }
 
+  body {
+    margin: 0;
+  }
+
   .views {
     width: 100%;
   }
