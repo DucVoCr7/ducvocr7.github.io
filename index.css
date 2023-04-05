@@ -148,6 +148,7 @@ p {
 }
 .bottom_element .element_content > ul > li {
   /* margin-bottom: var(--margin-bottom-element); */
+  /* text-indent: -20px; */
 }
 .bottom_element .element_content > p {
   line-height: inherit;
