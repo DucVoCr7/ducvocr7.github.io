@@ -14,7 +14,7 @@
 
 function toPDF() {
   window.open(
-    "https://drive.google.com/file/d/1bPkrz7Bn1Zj1prOIAR4QF6oHOLHypODI/view",
+    "https://drive.google.com/file/d/1K_F30huBRDD1z34CnIKJPvFqdHz80qzb/view?usp=sharing",
     "_blank"
   );
 }
