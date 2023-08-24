@@ -408,6 +408,7 @@
     
     .body .part .content .educations .education .school {
         line-height: 1.5;
+        font-size: 12px;
     }
     #download_pdf {
         top: 10px;
