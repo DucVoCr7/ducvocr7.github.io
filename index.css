@@ -266,6 +266,9 @@
     
 }
 
+.body .part .content .projects .project .addresses .address  .address_url .address_account_test {
+}
+
 .body .part .content .projects .project .techs {
     display: flex;
     flex-direction: column;
@@ -379,7 +382,9 @@
         line-height: 1.5;
         margin-right: 10px;
     }
-    
+    .body .part .content .projects .project .addresses .address .address_account_test {
+        display: none;
+    }
     .body .part .content .experiences .experience .position_time .time {
         line-height: 1.5;
         white-space: nowrap; 
