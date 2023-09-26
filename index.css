@@ -309,9 +309,6 @@
 
 
 @media (min-width: 740px) and (max-width: 800px) {
-    * {
-        font-size: 14px;
-    }
     .page {
         padding: 0;
     }
