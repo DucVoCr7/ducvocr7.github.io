@@ -77,9 +77,11 @@
     align-items: center;
 }
 .header .contact .item .item_icon {
-    height: 1rem;
-    padding-right: 5px;
+    padding-right: 3px;
+    font-size: 18px;
+    transform: translateY(0.7px);
 }
+
 .header .contact .item .item_content {
     font-size: 11px;
 }
@@ -100,7 +102,6 @@
 }
 .part .title {
     font-size: 23px;
-    font-weight: bold;
     text-transform: uppercase;
     font-family: "MixcaseMixed";
     letter-spacing: 3px;
