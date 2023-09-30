@@ -1,6 +1,6 @@
 const downloadPDF = ()=> {
     const link=document.createElement('a');
-    const filePath = './vohoaiducCV.pdf'
+    const filePath = './ducvoCv.pdf'
     link.href = filePath;
     link.download = filePath.substr(filePath.lastIndexOf('/') + 1);
     link.click();
