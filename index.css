@@ -12,13 +12,14 @@
 /* Base */
 * {
     box-sizing: border-box;
-    line-height: 1;
+    line-height: 1.5;
     font-family: 'Madera W01 Light';
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     padding: 0;
     margin: 0;
     color: var(--color-text);
+    text-decoration: none;
 }
 
 
@@ -54,16 +55,15 @@
 }
 
 .header .name {
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
     font-family: "MixcaseMixed";
-    line-height: 0.6;
-    transform: translateY(-5px);
+    line-height: 0.7;
 }
 .header .position {
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 .header .contact {
     text-align: center;
@@ -78,13 +78,18 @@
 }
 .header .contact .item .item_icon {
     padding-right: 3px;
-    font-size: 18px;
-    transform: translateY(0.7px);
+    font-size: 20px;
+}
+
+
+.header .contact .item .item_icon_transform_y {
+    transform: translateY(2px);
 }
 
 .header .contact .item .item_content {
-    font-size: 11px;
+    transform: translateY(2px);
 }
+
 .header .border {
     border-bottom: 1px solid gray;
 }
@@ -128,6 +133,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--grap-element);
+    margin-top: 5px;
 }
 
 .skills .skills_group {
@@ -141,14 +147,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 7px;
+    border-radius: 6px;
     border: 1px solid gainsboro;
 }
 
 .skills .skills_group .skill .skill_icon {
     height: var(--height-icon);
-    padding-right: 5px;
+    margin-right: 7px;
+    border-radius: 4px;
+}
+.skills .skills_group .skill .skill_content {
+   
 }
 
 
@@ -165,27 +175,30 @@
     gap: var(--grap-element);
 }
 
-.experiences .experience .position_time {
+.experiences .experience .company_position_time {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+    flex-direction: column;
+    gap: var(--grap-element);
 }
 
-.experiences .experience .position_time .position {
+.experiences .experience .company_position_time > div {
     font-weight: bold;
-    font-size: 15px; 
 }
-
-.experiences .experience .position_time .time {
-    font-weight: bold;
-    font-size: 15px; 
+.experiences .experience .company_position_time .company {
+}
+.experiences .experience .company_position_time .position {
+}
+.experiences .experience .company_position_time .time {
 }
 
 .experiences .experience .description_tasks {
     display: flex;
     flex-direction: column;
     gap: var(--grap-element);
+}
+
+.experiences .experience .description_tasks .description{
+
 }
 
 .experiences .experience .description_tasks .tasks {
@@ -195,9 +208,13 @@
     flex-direction: column;
     gap: var(--grap-element);
 }
+.experiences .experience .description_tasks .tasks .task{
+   
+}
+
 
 /* PROJECTS */
-.projects {
+/* .projects {
     display: flex;
     flex-direction: column;
     gap: var(--grap-element);
@@ -215,12 +232,11 @@
 }
 .projects .project .logo_name .logo {
     height: var(--height-icon);
-    padding-right: 5px;
+    padding-right: 7px;
 }
 
 .projects .project .logo_name .name {
     font-weight: bold;
-    font-size: 15px; 
 }
 
 .projects .project .description {
@@ -255,49 +271,33 @@
     display: flex;
     flex-direction: column;
     gap: var(--grap-element);
-}
+} */
 
 
 /* EDUCATION */
-.content .educations {
+.educations {
     display: flex;
     flex-direction: column;
     gap: var(--grap-element);
 }
-.content .educations .education {
+.educations .education {
     display: flex;
     flex-direction: column;
     gap: var(--grap-element);
 }
 
-.content .educations .education .major_time {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.content .educations .education .major_time .major {
+.educations .education > div {
     font-weight: bold;
-    font-size: 15px; 
 }
 
-.content .educations .education .major_time .time {
-    font-weight: bold;
-    font-size: 15px; 
+.educations .education .school {
 }
-
-.content .educations .education .school {
-    font-weight: bold;
-    font-size: 15px; 
+.educations .education .major {
+}
+.educations .education .time {
 }
 
 
-/* Dots Line */
-.dots_line {
-    flex: 1;
-    margin: 0 5px;
-    border-bottom: 1px dotted var(--color-text);
-}
 
 /* DOWNLOAD PDF */
 #download_pdf {
@@ -377,11 +377,11 @@
         flex-wrap: wrap;
     }
     
-    .experiences .experience .position_time .position {
+    .experiences .experience .company_position_time .position {
         margin-right: 10px;
     }
 
-    .experiences .experience .position_time .time {
+    .experiences .experience .company_position_time .time {
         white-space: nowrap; 
     }
 
@@ -393,11 +393,11 @@
        flex-wrap: wrap;
     }
 
-    .educations .education .major_time .major {
+    .educations .education .major {
         margin-right: 10px;
     }
     
-    .educations .education .major_time .time {
+    .educations .education .time {
         white-space: nowrap;
         line-height: 1.5;
     }
