@@ -153,6 +153,7 @@
     padding: 7px;
     border-radius: 6px;
     border: 1px solid gainsboro;
+    
 }
 
 .skills .skills_group .skill .skill_icon {
@@ -161,7 +162,6 @@
     border-radius: 4px;
 }
 .skills .skills_group .skill .skill_content {
-   
 }
 
 
