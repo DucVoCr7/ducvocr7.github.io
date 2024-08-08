@@ -1,0 +1,9 @@
+{
+    // "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "editor.fontWeight": "normal",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+}
