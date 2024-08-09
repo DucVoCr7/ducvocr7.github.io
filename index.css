@@ -328,9 +328,9 @@
 @media (max-width: 739px) {
   :root {
     --grap-part: 15px;
-    --grap-part-name: 14.5px;
+    --grap-part-name: 14px;
     --grap-element: 10px;
-    --height-icon: 1rem;
+    --height-icon: 22px;
     --font-size: 15px;
   }
 
@@ -356,11 +356,22 @@
   }
 
   .part .title {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .skills .skills_group {
     flex-wrap: wrap;
+  }
+
+  .skills .skills_group .skill {
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .skills .skills_group .skill .skill_icon {
+    height: var(--height-icon);
+    margin-right: 5px;
+    border-radius: 4px;
   }
 
   #download_pdf {
