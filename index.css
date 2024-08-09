@@ -3,11 +3,11 @@
   --color-text: #101518;
   --color-text-button: #fdfdfe;
   --color-background-button: #b7cadb;
-  --grap-element: 11.5px;
-  --grap-part: 19px;
-  --grap-part-name: 17.5px;
-  --height-icon: 1.5rem;
-  --font-size: 15px;
+  --grap-element: 12px;
+  --grap-part: 20px;
+  --grap-part-name: 18px;
+  --height-icon: 24px;
+  --font-size: 16px;
 }
 
 /* Base */
@@ -37,7 +37,7 @@
 .container {
   background-color: white;
   width: 793.700787px;
-  height: 1122.519685px;
+  /* height: 1122.519685px; */
   padding: 40px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
@@ -55,7 +55,7 @@
 }
 
 .header .name {
-  font-size: 65px;
+  font-size: 70px;
   text-align: center;
   font-family: "MixcaseMixed";
   line-height: 0.5;
@@ -64,7 +64,7 @@
 .header .position {
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 .header .contact {
   text-align: center;
@@ -107,7 +107,7 @@
   gap: var(--grap-part-name);
 }
 .part .title {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
   font-family: "MixcaseMixed";
   letter-spacing: 3px;
@@ -148,15 +148,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 7px;
+  border-radius: 7px;
   border: 1px solid gainsboro;
 }
 
 .skills .skills_group .skill .skill_icon {
   height: var(--height-icon);
-  margin-right: 5px;
-  border-radius: 3px;
+  margin-right: 7px;
+  border-radius: 5px;
 }
 .skills .skills_group .skill .skill_content {
 }
@@ -214,6 +214,7 @@
   flex-direction: column;
   gap: var(--grap-element);
 }
+
 .projects .project {
   display: flex;
   flex-direction: column;
@@ -253,21 +254,14 @@
 .projects .project .project_info .team {
 }
 
-.projects .project .project_info .responsible {
-  display: flex;
-  flex-direction: column;
-  gap: var(--grap-element);
-}
-
-.projects .project .project_info .me {
+.projects .project .project_info .position {
 }
 
 .projects .project .project_info .tasks {
   list-style: circle;
   margin-left: 30px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   gap: var(--grap-element);
 }
 
