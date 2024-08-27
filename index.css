@@ -39,8 +39,8 @@
   width: 793.700787px;
   /* height: 1122.519685px; */
   padding: 40px;
-  /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px; */
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
   display: flex;
   flex-direction: column;
   gap: var(--grap-element);
@@ -390,7 +390,7 @@
   }
 }
 
-/* @font-face {
+@font-face {
   font-family: "MixcaseMixed";
   src: local("MixcaseMixed"), url("/MixcaseMixed.ttf") format("truetype");
 }
@@ -398,16 +398,16 @@
   font-family: "Madera W01 Light";
   src: local("Madera W01 Light"),
     url("/Madera\ W01\ Light.ttf") format("truetype");
-} */
+}
 
-@font-face {
+/* @font-face {
   font-family: "MixcaseMixed";
   src: url("https://res.cloudinary.com/dy57fdikk/raw/upload/v1695785587/cv/MixcaseMixed_ailnjl.ttf");
 }
 @font-face {
   font-family: "Madera W01 Light";
   src: url("https://res.cloudinary.com/dy57fdikk/raw/upload/v1695785587/cv/Madera_W01_Light_zmr99u.ttf");
-}
+} */
 
 @-webkit-keyframes scale-in-top {
   0% {
