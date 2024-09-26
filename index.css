@@ -265,6 +265,9 @@
 .projects .project .project_info .position {
 }
 
+.projects .project .project_info .responsible {
+}
+
 .projects .project .project_info .tasks {
   list-style: disc;
   margin-left: 30px;
